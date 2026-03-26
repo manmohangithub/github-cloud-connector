@@ -3,7 +3,6 @@ from config import GITHUB_TOKEN, BASE_URL
 from logger import logger
 from cache import get_cache, set_cache
 
-print("TOKEN:", GITHUB_TOKEN)
 
 headers = {
     "Authorization": f"token {GITHUB_TOKEN}",
